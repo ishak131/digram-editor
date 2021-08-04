@@ -1,0 +1,62 @@
+.main {
+  width: 900px;
+  height: 700px;
+  background-color: bisque;
+  margin: auto;
+  display: flex;
+}
+
+.drag-drop-panel {
+  width: 200px;
+  background-color: #aaa;
+  height: 100%;
+}
+
+.work-space {
+  background-color: blanchedalmond;
+  flex-grow: 1;
+}
+
+.A-type {
+  background-color: brown;
+}
+
+.B-type {
+  background-color: greenyellow;
+}
+
+.C-type {
+  background-color: salmon;
+}
+.A-type,
+.B-type,
+.C-type {
+  display: block;
+  width: 60%;
+  height: 100px;
+  margin: auto;
+}
+
+.A-node {
+  background-color: brown;
+  width: 400px;
+  height: 400px;
+}
+
+.B-node {
+  background-color: greenyellow;
+  width: 300px;
+  height: 300px;
+}
+
+.C-node {
+  background-color: salmon;
+  width: 150px;
+  height: 150px;
+}
+
+.A-node,
+.B-node,
+.C-node {
+  position: absolute;
+}
